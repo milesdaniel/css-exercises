@@ -12,12 +12,21 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin: 0 0 6px 0;
 }
 
-.items {
+.content {
   display: flex;
+  justify-content: space-around;
+  gap: 26px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between
   align-items: center;
+  padding: 26px;
+  width: 200px;
 }
 
 
@@ -25,6 +34,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  text-align: center;
 }
 
 /* do not edit this footer */
