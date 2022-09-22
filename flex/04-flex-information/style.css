@@ -14,15 +14,17 @@ img {
   justify-content: center;
 }
 
-.barberry, .chili, .pepper, .saffron {
+.items {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between
+  align-items: center;
 }
 
 
 .text {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /* do not edit this footer */
